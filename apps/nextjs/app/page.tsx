@@ -1,7 +1,7 @@
-import { PageCss } from "./page.css";
+import css from "./page.module.css";
 export default function Home() {
   return (
-  <div className={PageCss}>
+  <div className={css.page}>
     Hello world
   </div>
   );
