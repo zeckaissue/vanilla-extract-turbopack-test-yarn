@@ -20,7 +20,8 @@
     ],
     "paths": {
       "@/*": ["./*"],
-      "@acme/ui": ["../ui/src/index.ts"]
+      "@acme/ui": ["../ui"],
+      "@acme/ui/*": ["../ui/*"],
     }
   },
   "include": [
